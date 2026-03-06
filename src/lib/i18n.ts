@@ -5,7 +5,7 @@ const ar = {
   nav: {
     home: 'الرئيسية', services: 'الخدمات', packages: 'الباقات',
     memberships: 'العضويات', branches: 'الفروع', barbers: 'الحلاقون',
-    book: 'الحجز', offers: 'العروض', club: 'النادي', about: 'من نحن',
+    book: 'الحجز', offers: 'العروض', club: 'نادي IL MAESTRO', about: 'من نحن',
     customer: 'لوحة العميل', admin: 'لوحة الإدارة', cart: 'السلة',
     gallery: 'المعرض', brand: 'الهوية', opportunity: 'أبعاد الفرصة',
   },
