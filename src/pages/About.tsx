@@ -1,0 +1,4 @@
+import { useTranslation } from 'react-i18next';
+export function About() { const { t } = useTranslation(); return (<div className="min-h-screen py-24 text-center"><h1 className="text-4xl font-bold mb-4">{t('about.title')}</h1><p className="max-w-2xl mx-auto text-[#A7ABB3]">IL MAESTRO is a premium grooming destination merging Italian craft with Saudi generosity. Our protocol ensures 100% consistency using detailed SOPs, offering a quiet luxury experience where the craft becomes a ritual.</p></div>); }
+export function News() { const { t } = useTranslation(); return (<div className="min-h-screen py-24 text-center"><h1 className="text-4xl font-bold">{t('news.title')}</h1></div>); }
+export function Privacy() { return <div className="min-h-screen py-24 text-center"><h1 className="text-4xl font-bold mb-4">Privacy Policy & Terms</h1><p className="text-[#A7ABB3]">Demo application terms. No real data is stored.</p></div>; }
